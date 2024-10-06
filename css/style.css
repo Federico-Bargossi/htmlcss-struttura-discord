@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-.header{
+/* HEADER */
+.header {
     background-color: hsl(194.74deg 53.27% 79.02%);
     height: 50px;
     display: flex;
@@ -13,43 +14,124 @@
     justify-content: center;
 }
 
-.header-block{
+.header-block {
     width: 70%;
     max-width: 1100px;
     margin: 0 auto;
     background-color: hsl(42.9deg 74.4% 49.02%);
-    border: 1px solid black;
-    }
+}
 
 
-.row{
+.row {
     display: flex;
 }
 
-.col-25{
+.col-25 {
     width: 25%;
-    height: 15px;
+    height: 22px;
+    border: dashed 1px black
 }
 
-.col-25-end{
+.col-25-end {
     width: 25%;
-    height: 15px;
+    height: 22px;
     display: flex;
     justify-content: flex-end;
+    border: dashed 1px black
 }
 
 
-.col-50{
+.col-50 {
     width: 50%;
-    height: 15px;
+    height: 22px;
     display: flex;
+    justify-content: center;
+    border: dashed 1px black
+}
+
+
+/* MAIN */
+/* MAIN TOP */
+.main-top {
+    background-color: hsl(230deg 98.57% 27.45%);
+    min-height: 450px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.container {
-    width: 80%;
+
+.main-top-block {
+    width: 60%;
     max-width: 1100px;
-    margin: 0 auto;
-    /* debug */
-    border: 1px solid black;
+    min-height: 360px;
+    background-color: hsl(300deg 76.06% 72.16%);
+    border: 1px dashed black
+}
+
+
+/* MAIN 1 */
+.main-1 {
+    min-height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+}
+
+.main-1-block{
+    width: 70%;
+    max-width: 1100px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-40 {
+    width: 40%;
+    min-height: 360px;
+    background-color: hsl(349.18deg 93.85% 87.25%);  
+}
+
+.col-60 {
+    width: 60%;
+    min-height: 360px;
+    background-color: hsl(209.6deg 100% 55.88%);
+}
+
+/* MAIN 2 */
+.main-2 {
+    min-height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0deg 0% 82.75%);
+    display: flex;
+}
+
+.main-2-block{
+    width: 70%;
+    max-width: 1100px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN BOT */
+.main-bot {
+    background-color: hsl(0deg 0% 82.75%);
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-bot-block {
+    width: 60%;
+    max-width: 1100px;
+    min-height: 550px;
+    background-color: hsl(119.43deg 61.63% 33.73%);
+    border: 1px dashed black
 }
